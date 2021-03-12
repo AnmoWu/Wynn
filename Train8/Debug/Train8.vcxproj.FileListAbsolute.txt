@@ -1,0 +1,2 @@
+D:\VS\Wynn\Train8\Debug\Train8.exe
+D:\VS\Wynn\Train8\Debug\Train8.pdb
