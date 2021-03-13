@@ -1,0 +1,4 @@
+﻿  unity.cpp
+D:\VS\Wynn\Train10\unity.cpp(30,20): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“double”
+D:\VS\Wynn\Train10\unity.cpp(34,11): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  Train10.vcxproj -> D:\VS\Wynn\Train10\Debug\Train10.exe
