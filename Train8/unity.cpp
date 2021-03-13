@@ -1,27 +1,23 @@
 #include<iostream>
 #include<math.h>
-#include<string.h>
-#include<ctype.h>
-#include<assert.h>
-//#include<vector>
-//#include<time.h>
-#define LAST 1000
-const double pi = 4.0 * atan(1.0);
-
-//char buf[LAST];
-//int p[LAST];
-
-//例题5-1-1 还原错位输入
-const char* s = "`1234567890-=QWERTYUIOP[]\ASDFGHJKL;'ZXCVBNM,./";//必须加const
+#include<time.h>
+#define last 1000000
 int main()
 {
-    int i, c;
-    while ((c = getchar()) != '\n')
-        for (i = 1; s[i] && s[i] != c; i++)
-        {
-            if (s[i])putchar(s[i - 1]);
-            else putchar(c);
-        }
-    return 0;
+	int x, n = 0, min = -last, max = last, s = 0;
+	//只有定义了LOCAL，才编译两条重定向语句
+#ifdef LOCAL
+	freopen("in.txt", "r", stdin);
+	freopen("out.txt", "w", stdout);
+#endif
+	while (scanf("%d", &x) == 1)
+	{
+		s += x;
+		if (x < min) min = x;
+		if (x > max) max = x;
+		n++;
+	}
+	printf("%d %d %.3lf\n", min, max, (double)s / n);
+	return 0;
 }
 
