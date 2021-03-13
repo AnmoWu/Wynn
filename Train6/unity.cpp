@@ -1,20 +1,20 @@
-//分步取模
+//最后取模
 #include<iostream>
 #include<time.h>
 #define last 1000000
 int main()
 {
-	int sum = 0, n, j;
+	unsigned int  i = 0, sum = 0, n;
 	scanf("%d", &n);
-	//while (++i <n)
-	for (int i = 1; i <= n; i++)
+	while (++i <= n)
 	{
+		int j = 0;
 		int single = 1;
-		for (j = 1; j <= i; j++)
-			single = (single * j) % last;
-		sum = (sum + single) % last;
+		while (++j <= i)
+			single *= j;
+		sum += single;
 	}
-	printf("%d\n", sum);
+	printf("%d\n", sum % last);
 	printf("Time used = %.2lf\n", (double)clock() / CLOCKS_PER_SEC);
 	return 0;
 }
