@@ -1,0 +1,68 @@
+﻿  Resourse.cpp
+D:\VS\Wynn\SeqList\Resourse.cpp(62,2): error C2953: “SeqList”: 类模板已经定义
+D:\VS\Wynn\SeqList\Resourse.cpp(28): message : 参见“SeqList”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(66,1): error C2244: “SeqList::SeqList”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(65): message : 参见“SeqList::SeqList”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(66,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(66,1): message : 'SeqList::SeqList(int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(66,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(66,1): message : 'SeqList<T>::SeqList(SeqList<T> &)'
+D:\VS\Wynn\SeqList\Resourse.cpp(66,1): message : 'SeqList<T>::SeqList(T [],int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(66,1): message : 'SeqList<T>::SeqList(int,T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(66,1): message : 'SeqList<T>::SeqList(int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(74,1): error C2244: “SeqList::SeqList”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(73): message : 参见“SeqList::SeqList”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(74,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(74,1): message : 'SeqList::SeqList(int,T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(74,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(74,1): message : 'SeqList<T>::SeqList(SeqList<T> &)'
+D:\VS\Wynn\SeqList\Resourse.cpp(74,1): message : 'SeqList<T>::SeqList(T [],int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(74,1): message : 'SeqList<T>::SeqList(int,T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(74,1): message : 'SeqList<T>::SeqList(int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(83,1): error C2244: “SeqList::SeqList”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(82): message : 参见“SeqList::SeqList”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(83,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(83,1): message : 'SeqList::SeqList(T [],int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(83,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(83,1): message : 'SeqList<T>::SeqList(SeqList<T> &)'
+D:\VS\Wynn\SeqList\Resourse.cpp(83,1): message : 'SeqList<T>::SeqList(T [],int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(83,1): message : 'SeqList<T>::SeqList(int,T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(83,1): message : 'SeqList<T>::SeqList(int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(89,1): error C2244: “SeqList::init”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(88): message : 参见“SeqList::init”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(89,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(89,1): message : 'void SeqList::init(T [],int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(89,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(89,1): message : 'void SeqList<T>::init(T [],int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(99,1): error C2244: “SeqList::~SeqList”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(98): message : 参见“SeqList::~SeqList”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(99,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(99,1): message : 'SeqList::~SeqList(void)'
+D:\VS\Wynn\SeqList\Resourse.cpp(99,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(99,1): message : 'SeqList<T>::~SeqList(void)'
+D:\VS\Wynn\SeqList\Resourse.cpp(105,1): error C2244: “SeqList::count”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(104): message : 参见“SeqList::count”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(105,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(105,1): message : 'int SeqList::count(void)'
+D:\VS\Wynn\SeqList\Resourse.cpp(105,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(105,1): message : 'int SeqList<T>::count(void)'
+D:\VS\Wynn\SeqList\Resourse.cpp(111,1): error C2244: “SeqList::insert”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(110): message : 参见“SeqList::insert”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(111,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(111,1): message : 'void SeqList::insert(int,T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(111,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(111,1): message : 'void SeqList<T>::insert(T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(111,1): message : 'void SeqList<T>::insert(int,T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(132,1): error C2244: “SeqList::insert”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(131): message : 参见“SeqList::insert”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(132,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(132,1): message : 'void SeqList::insert(T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(132,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(132,1): message : 'void SeqList<T>::insert(T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(132,1): message : 'void SeqList<T>::insert(int,T)'
+D:\VS\Wynn\SeqList\Resourse.cpp(138,1): error C2244: “SeqList::remove”: 无法将函数定义与现有的声明匹配
+D:\VS\Wynn\SeqList\Resourse.cpp(137): message : 参见“SeqList::remove”的声明
+D:\VS\Wynn\SeqList\Resourse.cpp(138,1): message : 定义
+D:\VS\Wynn\SeqList\Resourse.cpp(138,1): message : 'T SeqList::remove(int)'
+D:\VS\Wynn\SeqList\Resourse.cpp(138,1): message : 现有声明
+D:\VS\Wynn\SeqList\Resourse.cpp(138,1): message : 'T SeqList<T>::remove(int)'
